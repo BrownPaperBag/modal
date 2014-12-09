@@ -5,10 +5,8 @@ An angularjs directive providing a modal dialogs which are easy to style but som
 
 Example usage:
 
-&lt;script src="bower_components/selectbox/directives/selectbox.js"&gt;&lt;/script&gt;
+```HTML
+<script src="bower_components/selectbox/directives/selectbox.js"></script>
 
-&lt;button ng-click="dialog_shown=true"&gt;Open Dialog&lt;/button&gt;
-&lt;modal ng-show="dialog_shown""&gt;
-	dialog contents
-&lt;/modal&gt;
-
+<button ng-click="dialog_shown=true">Open Dialog</button> <modal ng-show="dialog_shown""> dialog contents </modal>
+```
