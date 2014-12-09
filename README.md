@@ -8,5 +8,6 @@ Example usage:
 ```HTML
 <script src="bower_components/selectbox/directives/selectbox.js"></script>
 
-<button ng-click="dialog_shown=true">Open Dialog</button> <modal ng-show="dialog_shown""> dialog contents </modal>
+<button ng-click="dialog_shown=true">Open Dialog</button> 
+<modal ng-show="dialog_shown"> dialog contents </modal>
 ```
